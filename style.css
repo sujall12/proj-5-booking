@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./assets/bg.png);
+    
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 8rem;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-weight: 600;
+    
+    
+}
+
+
+ul.list{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: -25rem;
+
+    
+
+
+
+}
+
+
+.navbar{
+    background-color: black;
+    margin-left: 0.7px;
+    margin-right: -0.7px;
+    margin-top: -0.7px;
+}
+
+.logo{
+    padding: 20px;
+    margin-left: 70px;
+    margin-left: 30px;
+    
+}
+
+.button-small{
+    margin-right: 80px;
+    padding: 10px;
+    width: 170px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(175, 32, 175);
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+
+
+.hero{
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+}
+
+.hero-heading{
+    font-weight: bold;
+    
+    font-size: 75px;
+    font-family: sans-serif;
+    margin-top: -80px;
+}
+
+.hero-description{
+font-family: "robotic", sans-serif;
+margin-top: 10px;
+font-size: x-large;
+
+}
+
+.button-large{
+margin-top: 80px;
+padding: 20px;
+width: 350px;
+border-radius: 13px;
+background-color: rgb(129, 10, 129);
+border: none;
+color: #fff;
+font-size: x-large;
+
+}
+
+
+select{
+    color: white;
+    background-color: black;
+    border-style: hidden;
+    
+    
+}
+
+.vertical-line{
+    display: inline-block;
+    width: 2px;
+    background-color: #fff;
+    overflow-y: visible;
+    margin-left: 250px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+.logo{
+    margin-left: -220px;
+    margin-top: -15px;
+}
+
+.button-small ,.button-large{
+    cursor: pointer;
+}
